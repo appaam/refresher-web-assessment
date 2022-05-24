@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/validate.js"></script>
+</head>
+
+<body>
+	<!-- Page -->
+	<h1>
+		<font color="blue">Enter Person Details</font>
+	</h1>
+
+
+
+	<form action="person-student-servlets" method="post">
+		<table border="1">
+			<tr>
+				<th>Enter AdharCardNumber</th>
+				<td><input type="text" id ="adharcard" name="adharcard" size="30" onblur="isValidAdharCard()">
+				     <p id="p1"></p></td>
+			</tr>
+			<tr>
+				<th>Enter Name</th>
+				<td><input type="text" id="name" name="name" size="30" onblur="isValidName()" >
+                           <p id="p2"></p></td>
+			</tr>
+			<tr>
+				<th>Enter BirthDate</th>
+				<td><input type="date" id="birthdate" name="birthdate" size="30"></td>
+			</tr>
+			<tr>
+				<th>Enter Address</th>
+				<td><input type="text"  id="address" name="address" size="30" onblur="isValidAddress()">
+				<p id="p4"></p></td>
+			</tr>
+			
+			<tr>
+				<th>Enter Email</th>
+				<td><input type="text" id="email" name="email" size="30" onblur="isValidEmail()">
+				<p id="p5"></p></td>
+			</tr>
+			<tr>
+				<th>Enter mobile</th>
+				<td><input type="number" id="mobile" name="mobile" size="30" onblur="isValidMobile()">
+				<p id="p6"></p></td>
+			</tr>
+			<tr>
+				<th>Enter AdmissionCode</th>
+				<td><input type="number" id="admissioncode" name="admissionCode" size="30" onblur="isValidAdmissioncode()">
+				<p id="p7"></p></td>
+				
+			</tr>
+
+			<tr>
+				<th>Enter ClassName</th>
+				<td><input type="text" id="classname" name="classname" size="30" onblur="isValidClassname()">
+				<p id="p8"></p></td>
+				
+			</tr>
+
+			<tr>
+				<th>Enter Subject1 Marks</th>
+				<td><input type="number"  id="subject1" name="Subject1" size="30" onblur="isVaildSubject1()">
+				<p id="p9"></p></td>
+			</tr>
+
+			<tr>
+				<th>Enter Subject2 Marks</th>
+				<td><input type="number" name="Subject2" size="30"></td>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+				<th>Enter Subject3 Marks</th>
+				<td><input type="number" name="Subject3" size="30"></td>
+			</tr>
+			<tr>
+
+			</tr>
+			<tr>
+				<th>Enter Subject4 Marks</th>
+				<td><input type="number" name="Subject4" size="30"></td>
+			</tr>
+			<tr>
+
+			</tr>
+			<tr>
+				<th>Enter Subject5 Marks</th>
+				<td><input type="number" name="Subject5" size="30"></td>
+			</tr>
+			<tr>
+
+			</tr>
+			<tr>
+				<th>Enter Subject6 Marks</th>
+				<td><input type="number" name="Subject6" size="30"></td>
+			</tr>
+			<tr>
+
+
+				<td colspan="2" align="center"><input type="submit"
+					value="Submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
